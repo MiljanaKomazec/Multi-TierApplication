@@ -1,0 +1,7 @@
+<div class="container">
+  <h1>{{ title }}</h1>
+  <p>{{ text }}</p>
+  <p>IT60/2020 Miljana Komazec</p>
+  <img src="{{ imageUrl }}" alt="Image" (click)="toggleText()">
+  <p *ngIf="showText">{{ newText }}</p>
+</div>
